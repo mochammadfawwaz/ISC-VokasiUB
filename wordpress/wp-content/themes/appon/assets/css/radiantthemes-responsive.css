@@ -1,0 +1,549 @@
+﻿/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+
+	/*--------------------------------------------------------------
+	# Common
+	--------------------------------------------------------------*/
+
+	.order-xl-1{
+		order:1;
+	}
+
+	.order-xl-2{
+		order:2;
+	}
+
+	.order-xl-3{
+		order:3;
+	}
+
+	.order-xl-4{
+		order:4;
+	}
+
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+
+	/*--------------------------------------------------------------
+	# Common
+	--------------------------------------------------------------*/
+
+	.order-lg-1{
+		order:1;
+	}
+
+	.order-lg-2{
+		order:2;
+	}
+
+	.order-lg-3{
+		order:3;
+	}
+
+	.order-lg-4{
+		order:4;
+	}
+
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	/*--------------------------------------------------------------
+	# Common
+	--------------------------------------------------------------*/
+
+	.order-md-1{
+		order:1;
+	}
+
+	.order-md-2{
+		order:2;
+	}
+
+	.order-md-3{
+		order:3;
+	}
+
+	.order-md-4{
+		order:4;
+	}
+
+	/*--------------------------------------------------------------
+	# Shop Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Product Listing Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-shop.three-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.four-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.five-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.six-column > .radiantthemes-shop-box{
+		width:33.33%;
+	}
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/*--------------------------------------------------------------
+	# GDPR Notice
+	--------------------------------------------------------------*/
+
+	.gdpr-notice > .row{
+		display:block;
+	}
+
+	.gdpr-notice .btn{
+		margin-top:25px;
+	}
+
+	/*--------------------------------------------------------------
+	# Common
+	--------------------------------------------------------------*/
+
+	.order-sm-1{
+		order:1;
+	}
+
+	.order-sm-2{
+		order:2;
+	}
+
+	.order-sm-3{
+		order:3;
+	}
+
+	.order-sm-4{
+		order:4;
+	}
+
+	/*--------------------------------------------------------------
+	# Blog Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Post (Style Default)
+	--------------------------------------------------------------*/
+
+	.post.style-default .entry-main .entry-extra .entry-extra-item,
+	.page.style-default .entry-main .entry-extra .entry-extra-item,
+	.tribe_events.style-default .entry-main .entry-extra .entry-extra-item,
+	.testimonial.style-default .entry-main .entry-extra .entry-extra-item,
+	.team.style-default .entry-main .entry-extra .entry-extra-item,
+	.portfolio.style-default .entry-main .entry-extra .entry-extra-item,
+	.case-studies.style-default .entry-main .entry-extra .entry-extra-item,
+	.client.style-default .entry-main .entry-extra .entry-extra-item,
+	.product.style-default .entry-main .entry-extra .entry-extra-item{
+	    text-align:center !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Blog Single Page
+	--------------------------------------------------------------*/
+
+	.comments-area ol.comment-list li ol{
+		padding-left:20px;
+	}
+
+	/*--------------------------------------------------------------
+	# Shop Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Product Listing Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-shop.three-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.four-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.five-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.six-column > .radiantthemes-shop-box{
+		width:50%;
+	}
+
+	/*--------------------------------------------------------------
+	## Product Single Page
+	--------------------------------------------------------------*/
+
+	.wraper_shop_single.style-one .shop_single_tabs > ul.nav-tabs > li{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Cart Page
+	--------------------------------------------------------------*/
+
+	.woocommerce input.input-text[name=coupon_code]{
+		width:50% !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/*--------------------------------------------------------------
+	# GDPR Notice
+	--------------------------------------------------------------*/
+
+	.gdpr-notice > .row{
+		display:block;
+	}
+
+	.gdpr-notice .btn{
+		margin-top:25px;
+	}
+
+	/*--------------------------------------------------------------
+	# Gallery Columns
+	--------------------------------------------------------------*/
+
+	.gallery-item,
+	.gallery-columns-1 .gallery-item,
+	.gallery-columns-2 .gallery-item,
+	.gallery-columns-3 .gallery-item,
+	.gallery-columns-4 .gallery-item{
+		width:100%;
+		max-width:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# Common
+	--------------------------------------------------------------*/
+
+	.order-1{
+		order:1;
+	}
+
+	.order-2{
+		order:2;
+	}
+
+	.order-3{
+		order:3;
+	}
+
+	.order-4{
+		order:4;
+	}
+
+	/*--------------------------------------------------------------
+	# Blog Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Post (Style Default)
+	--------------------------------------------------------------*/
+
+	.post.style-default .entry-main .entry-extra .entry-extra-item,
+	.page.style-default .entry-main .entry-extra .entry-extra-item,
+	.tribe_events.style-default .entry-main .entry-extra .entry-extra-item,
+	.testimonial.style-default .entry-main .entry-extra .entry-extra-item,
+	.team.style-default .entry-main .entry-extra .entry-extra-item,
+	.portfolio.style-default .entry-main .entry-extra .entry-extra-item,
+	.case-studies.style-default .entry-main .entry-extra .entry-extra-item,
+	.client.style-default .entry-main .entry-extra .entry-extra-item,
+	.product.style-default .entry-main .entry-extra .entry-extra-item{
+	    text-align:center !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Blog Single Page
+	--------------------------------------------------------------*/
+
+	.comments-area ol.comment-list li ol{
+		padding-left:0;
+	}
+
+	.comments-area ol.comment-list li .reply{
+	    position:static;
+	    margin-bottom:12px;
+	}
+
+	/*--------------------------------------------------------------
+	# Shop Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Product Listing Page
+	--------------------------------------------------------------*/
+
+	.woocommerce .woocommerce-products-header,
+	.woocommerce .woocommerce-result-count,
+	.woocommerce .woocommerce-ordering{
+		width:100%;
+		text-align:center;
+	}
+
+	.radiantthemes-shop.three-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.four-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.five-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.six-column > .radiantthemes-shop-box{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	## Product Single Page
+	--------------------------------------------------------------*/
+
+	.wraper_shop_single.style-one .shop_single_tabs > ul.nav-tabs > li{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Cart Page
+	--------------------------------------------------------------*/
+
+	.woocommerce input.input-text[name=coupon_code]{
+		width:100% !important;
+		margin:0px 0px 7px 0px !important;
+	}
+
+	.woocommerce input.button[name=apply_coupon]{
+		width:100% !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Checkout Page
+	--------------------------------------------------------------*/
+
+	.woocommerce form #customer_details,
+	.woocommerce form #order_review_heading,
+	.woocommerce form #order_review{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/*--------------------------------------------------------------
+	# GDPR Notice
+	--------------------------------------------------------------*/
+
+	.gdpr-notice > .row{
+		display:block;
+	}
+
+	.gdpr-notice .btn{
+		margin-top:25px;
+	}
+
+	/*--------------------------------------------------------------
+	# Gallery Columns
+	--------------------------------------------------------------*/
+
+	.gallery-item,
+	.gallery-columns-1 .gallery-item,
+	.gallery-columns-2 .gallery-item,
+	.gallery-columns-3 .gallery-item,
+	.gallery-columns-4 .gallery-item{
+		width:100%;
+		max-width:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# Common
+	--------------------------------------------------------------*/
+
+	.order-1{
+		order:1;
+	}
+
+	.order-2{
+		order:2;
+	}
+
+	.order-3{
+		order:3;
+	}
+
+	.order-4{
+		order:4;
+	}
+
+	/*--------------------------------------------------------------
+	# Blog Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Post (Style Default)
+	--------------------------------------------------------------*/
+
+	.post.style-default .entry-main .entry-extra .entry-extra-item,
+	.page.style-default .entry-main .entry-extra .entry-extra-item,
+	.tribe_events.style-default .entry-main .entry-extra .entry-extra-item,
+	.testimonial.style-default .entry-main .entry-extra .entry-extra-item,
+	.team.style-default .entry-main .entry-extra .entry-extra-item,
+	.portfolio.style-default .entry-main .entry-extra .entry-extra-item,
+	.case-studies.style-default .entry-main .entry-extra .entry-extra-item,
+	.client.style-default .entry-main .entry-extra .entry-extra-item,
+	.product.style-default .entry-main .entry-extra .entry-extra-item{
+	    text-align:center !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Blog Single Page
+	--------------------------------------------------------------*/
+
+	.comments-area ol.comment-list li ol{
+		padding-left:0;
+	}
+
+	.comments-area ol.comment-list li .reply{
+	    position:static;
+	    margin-bottom:12px;
+	}
+
+	/*--------------------------------------------------------------
+	# Shop Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Product Listing Page
+	--------------------------------------------------------------*/
+
+	.woocommerce .woocommerce-products-header,
+	.woocommerce .woocommerce-result-count,
+	.woocommerce .woocommerce-ordering{
+		width:100%;
+		text-align:center;
+	}
+
+	.radiantthemes-shop.three-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.four-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.five-column > .radiantthemes-shop-box,
+	.radiantthemes-shop.six-column > .radiantthemes-shop-box{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	## Product Single Page
+	--------------------------------------------------------------*/
+
+	.wraper_shop_single.style-one .shop_single_tabs > ul.nav-tabs > li{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Cart Page
+	--------------------------------------------------------------*/
+
+	.woocommerce input.input-text[name=coupon_code]{
+		width:100% !important;
+		margin:0px 0px 7px 0px !important;
+	}
+
+	.woocommerce input.button[name=apply_coupon]{
+		width:100% !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Checkout Page
+	--------------------------------------------------------------*/
+
+	.woocommerce form #customer_details,
+	.woocommerce form #order_review_heading,
+	.woocommerce form #order_review{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+}

@@ -1,0 +1,71 @@
+﻿/* radiantthemes-alert-box element-one */
+
+.radiantthemes-alert-box.element-one{
+    position:relative;
+    margin:0;
+    padding:13px 35px 12px 45px;
+    border-width:1px;
+    border-style:solid;
+    border-radius:3px;
+    text-align:left;
+    font-size:14px;
+    line-height:26px;
+}
+
+.radiantthemes-alert-box.element-one.alert-info{
+    background-color:#e8f3fa;
+    border-color:#c6dfef;
+    color:#3097db;
+}
+
+.radiantthemes-alert-box.element-two.alert-success{
+    background-color:#e0f2e0;
+    border-color:#c4e7c4;
+    color:#00a500;
+}
+
+.radiantthemes-alert-box.element-one.alert-warning{
+    background-color:#f9ebc8;
+    border-color:#f4d29c;
+    color:#df8c16;
+}
+
+.radiantthemes-alert-box.element-one.alert-danger{
+    background-color:#fce4e4;
+    border-color:#eec1c1;
+    color:#fb5455;
+}
+
+.radiantthemes-alert-box.element-one > .close{
+    position:absolute;
+    top:13px;
+    right:15px;
+    z-index:1;
+    opacity:1;
+    color:inherit;
+}
+
+.radiantthemes-alert-box.element-one > .close i{
+    font-size:15px;
+    line-height:15px;
+}
+
+.radiantthemes-alert-box.element-one > .icon{
+    position:absolute;
+    top:50%;
+    left:15px;
+    z-index:1;
+    transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+}
+
+.radiantthemes-alert-box.element-one > .icon i{
+    width:16px;
+    text-align:center;
+    font-size:16px;
+    line-height:16px;
+}
+
+.radiantthemes-alert-box.element-one > strong{
+    font-weight:600;
+}

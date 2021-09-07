@@ -1,0 +1,610 @@
+/* START OF RADIANTTHEMES QUICK LAUNCHER */
+
+.radiantthemes-quicklauncher{
+    position:fixed;
+    top:50%;
+    right:15px;
+    z-index:1;
+    width:35px;
+    transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+}
+
+.radiantthemes-quicklauncher ul li{
+    float:left;
+    margin-bottom:10px;
+}
+
+.radiantthemes-quicklauncher ul li:last-child,
+.radiantthemes-quicklauncher ul li:only-child{
+    margin-bottom:0;
+}
+
+.radiantthemes-quicklauncher ul li a{
+    display:block;
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    box-shadow:0px 2px 5px rgba(0,0,0,0.3);
+    text-align:center;
+    font-size:13px;
+    color:#fff;
+    line-height:35px;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.radiantthemes-quicklauncher ul li.documentation a{
+    background-color:#ff2c54;
+}
+
+.radiantthemes-quicklauncher ul li.support a{
+    background-color:#8ec5eb;
+}
+
+.radiantthemes-quicklauncher ul li a:hover{
+    transform:scale(1.3);
+    -webkit-transform:scale(1.3);
+}
+
+/* END OF RADIANTTHEMES QUICK LAUNCHER */
+
+/**********APPON HOME 1***************************/
+
+.appon-home-statictics {
+	overflow: visible !important;
+}
+.appon-home-breakthrough-img{
+    width:563px;
+    margin-left:50px;
+}
+
+.appon-home-right-img-part {
+	position: absolute;
+	top: -120px;
+}
+
+.content-area .appon-home-grad {
+	background-repeat: repeat-x !important;
+}
+
+.appon-home-get-app {
+	width: 936px;
+	float: left;
+	position: absolute;
+	top: -85px;
+}
+
+.appon-home-banner-right-image {
+	width: 650px;
+	position: absolute;
+	left: -50px;
+}
+
+.appon-home-box-shadow .vc_column-inner:hover {
+	box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.appnow-part {
+	margin-bottom: 132px;
+}
+
+.appon-home-box-shadow .vc_column-inner {
+	transition-duration: 0.3s;
+}
+.home-one-manage-image{
+    width: 641px;
+    float: right;
+}
+/* TABLET LANDSCAPE PART */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .appon-home-banner-right-image {
+	width: 100%;
+	position: inherit;
+	left: 0;
+}
+.appon-home-right-img-part {
+     position: inherit;
+     top: 100%;
+}
+.appon-home-get-app {
+    width: 100%;
+    float: none;
+    position: inherit;
+    top: 0px;
+}
+.strategy-image{
+	    width:100% !important;;
+	}
+
+ }
+
+
+/* TABLET PROTRAIT PART */
+
+@media screen and (min-width:480px) and (max-width:767px) {
+     .appon-home-banner-right-image {
+	width: 100%;
+	position: inherit;
+	left: 0;
+}
+.appon-home-right-img-part {
+     position: inherit;
+     top: 100%;
+}
+.appon-home-get-app {
+    width: 100%;
+    float: none;
+    position: inherit;
+    top: 0px;
+}
+.strategy-image{
+	    width:100% !important;;
+	}
+.home-one-manage-image{
+width: auto;
+float: left;
+}
+.appon-home-breakthrough-img {
+
+    width: auto;
+    margin-left: 0;
+    text-align: left !important;
+
+}
+}
+
+/* SMART PHONE LANDSCAPE PART */
+
+@media screen and (min-width:321px) and (max-width:479px) {
+    div.appon-home-breakthrough-img {
+	width: inherit;
+	margin-top:0;
+}
+.appon-home-get-app {
+	width: 100%;
+	float: none;
+	position: inherit;
+	top: 0;
+}
+.strategy-image{
+	    width:100% !important;;
+	}
+.home-one-manage-image{
+width: auto;
+float: left;
+}
+}
+
+
+/* SMART PHONE PROTRAIT PART */
+
+@media screen and (max-width:320px) {
+ div.appon-home-breakthrough-img {
+	width: inherit;
+	margin-top:0;
+}
+.appon-home-get-app {
+	width: 100%;
+	float: none;
+	position: inherit;
+	top: 0;
+}
+.strategy-image{
+	    width:100% !important;
+	}
+.home-one-manage-image{
+width: auto;
+float: left;
+}
+}
+
+@media screen and (max-width:767px) {
+	.appon-home-banner-right-image {
+		position: static;
+		width: inherit;
+	}
+	.appon-home-right-img-part {
+		position: static;
+		width: inherit;
+	}
+	.appon-breakthrough .appon-home-breakthrough-img {
+		margin-top: 0px !important;
+	}
+
+}
+
+
+/**********START OF APPON HOME 2***************************/
+
+.home2-banner-right-image {
+	width: 972px;
+    position: absolute;
+    left: -118px;
+    top: 0px;
+}
+
+.appon-home-2-key-features .vc_column-inner {
+	box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.1);
+}
+
+.email-submit {
+	background-color: #fff;
+	float: left;
+	border-radius: 0;
+	width: 100%;
+	position: relative;
+	-webkit-box-shadow: 0px 25px 75px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 25px 75px 0px rgba(0, 0, 0, 0.1);
+}
+
+.email-submit input[type="email"] {
+	height: 74px;
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	background-color: #fff !important;
+	border-radius: 4px;
+	color: #828282;
+	padding: 0px 235px 0 29px;
+	margin: 0px;
+	border: 1px solid #ebebeb;
+}
+
+.email-submit button {
+	color: #fff;
+	/* font-weight: normal !important; */
+	width: 25% !important;
+	border-radius: 0 4px 4px 0 !important;
+	float: right;
+	margin: 0px;
+	padding: 25px 53px 24px 53px !important;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0px;
+	background: #1bcc88;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+/**********END OF APPON HOME 2***************************/
+
+
+/**********START OF APPON HOME 3***************************/
+
+.appon-home-3-banner-right-image {
+	width: 940px;
+    margin-left: 2px;
+}
+
+.appon-home-3-dashboard {
+	width: 977px;
+	float: right;
+}
+
+.appon-home-3-dashboard-heading {
+	position: relative;
+}
+
+.appon-home-3-dashboard-heading:before {
+	width: 75px;
+	height: 3px;
+	background: #1e1e1e;
+	content: "";
+	position: absolute;
+	left: -65px;
+	top: 22px;
+}
+
+@media screen and (max-width:767px) {
+	.appon-home-3-dashboard {
+		float: none;
+	}
+	.appon-home-3-banner-right-image {
+		margin-left: 0px;
+		width:100%;
+	}
+}
+
+.home-three-breakthrough-image {
+	width: 656px;
+	float: right;
+}
+/* SMART PHONE LANDSCAPE PART */
+
+@media screen and (min-width:321px) and (max-width:479px) {
+.home-three-breakthrough-image {
+	width: inherit;
+	float: none;
+}
+}
+
+
+/* SMART PHONE PROTRAIT PART */
+
+@media screen and (max-width:320px) {
+.home-three-breakthrough-image {
+	width: inherit;
+	float: none;
+}
+}
+
+/**********END OF APPON HOME 3***************************/
+
+
+/**********START OF APPON FEATURES***************************/
+
+.appon-features-img {
+	width: 510px;
+}
+
+.features-subscribe-button .email-submit button {
+	background: #f5365a;
+	border-radius: 0 6px 6px 0 !important;
+}
+
+.features-breakthrough-right-image {
+	width: 563px;
+}
+
+
+/**********END OF APPON FEATURES***************************/
+
+
+/**********START OF APPON JOB***************************/
+
+.appon-job-market>.vc_column-inner {
+	box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+
+.job-contact-form h6 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	padding: 25px 0 15px 0;
+}
+
+
+/**********END OF APPON JOB***************************/
+
+
+/**********START OF APPON DISCOVER***************************/
+
+.appon-analysis-box-shadow {
+	    box-shadow: 0 0 55px rgba(0,0,0,0.1);
+}
+
+.discover-sales-report {
+    width: 759px;
+    float: right;
+}
+
+.appon-discover-digital-image {
+	width: 708px;
+	position: absolute;
+	top: -160px;
+}
+
+@media screen and (max-width:767px) {
+	.appon-discover-digital-image {
+		position: static;
+	}
+	.email-submit {
+		background-color: transparent !important;
+		box-shadow: none !important;
+	}
+	.email-submit input[type="email"] {
+		width: 100%;
+		float: left;
+		font-size: 20px;
+		background-color: #fff !important;
+		border-radius: 4px;
+		color: #828282;
+		padding: 0px 0 0 29px;
+	}
+	.email-submit button {
+		width: 100% !important;
+		position: static;
+		margin-top: 30px;
+	}
+
+	.home2-banner-right-image {
+		position: static;
+	}
+	.strategy-image{
+	    width:100%;
+	}
+}
+
+/* TABLET LANDSCAPE PART */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    	.email-submit button {
+		width: 100% !important;
+		position: static;
+		margin-top: 30px;
+	}
+	.email-submit {
+		background-color: transparent !important;
+		box-shadow: none !important;
+	}
+	
+ }
+
+ 
+/* SMART PHONE LANDSCAPE PART */
+
+@media screen and (min-width:321px) and (max-width:479px){
+	.discover-sales-report {
+    width: inherit;
+    float: none;
+}
+}
+
+
+
+
+/**********END OF APPON DISCOVER***************************/
+
+
+/**********START OF APPON PROCESS***************************/
+
+
+.process-right-image {
+	width: 851px;
+}
+
+.process-integration-box>.vc_column-inner {
+	box-shadow: 0 0 59px 0 rgba(204, 204, 223, 0.71);
+}
+
+.strategy-image {
+	width: 804px;
+}
+
+.topper-section .process-row-bg {
+	background-position: center center !important;
+}
+/* SMART PHONE LANDSCAPE PART */
+
+@media screen and (min-width:321px) and (max-width:479px) {
+    .process-right-image {
+	width: 100%;
+}
+}
+
+/**********END OF APPON PROCESS***************************/
+
+
+/**********START OF APPON CONTACT***************************/
+
+
+.contact-us-submit{
+    width:100% !important;
+    border-radius:0px !important;
+    height:48px;
+}
+/**********END OF APPON CONTACT***************************/
+
+/**********START OF APPON HOME VERSION FOUR***************************/
+.page-id-3075 .testimonial.element-two .testimonial-item > .holder > .testimonial-data blockquote p{
+color:#fff;
+}
+.home-version-four-left-image{
+width:755px;
+text-align:left;
+}
+.service-box-shadow .vc_column-inner{
+box-shadow: 0px 2px 12px rgba(0,0,0,0.10);
+}
+.home-version-four-hover-shadow:hover{
+box-shadow: 0px 2px 12px rgba(0,0,0,0.10);
+}
+.home-version-four-manage-left{
+width:779px;
+}
+
+.home-version-four-trial .form-row {
+    position:relative;
+}
+.home-version-four-trial .form-row .home-version-four-btn{
+    padding: 7px 15px !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.list-part.radiantthemes-list.element-seven ul > li{
+display:inline-block;
+margin:0 4px;
+}
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+        .home-version-four-manage-left{
+        width:auto;
+    }
+}
+
+
+/**********END OF APPON HOME VERSION FOUR***************************/
+
+/**********START OF APPON HOME VERSION FIVE***************************/
+
+.home-version-five-right-image{
+width:685px;
+float:left;
+}
+.home-version-five-left-image{
+width:648px;
+float:right;
+}
+.list-part-5.radiantthemes-list.element-seven ul > li{
+display:inline-block;
+margin:0 4px;
+color:#fff;
+}
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+    .home-version-five-right-image{
+width:auto;
+float:left;
+}
+.home-version-five-left-image{
+width:auto;
+float:left;
+}
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+.home-version-five-right-image{
+width:auto;
+float:left;
+}
+.home-version-five-left-image{
+width:auto;
+float:left;
+}
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+.home-version-five-right-image{
+width:auto;
+float:left;
+}
+.home-version-five-left-image{
+width:auto;
+float:left;
+}
+}
+
+/**********END OF APPON HOME VERSION FIVE***************************/
